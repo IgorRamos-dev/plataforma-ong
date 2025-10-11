@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Plataforma para ONGs: projetos, doações, voluntariado e transparência.">
+  <meta name="theme-color" content="#0f766e">
+  <title>Projetos sociais | Plataforma ONG</title>
+  <link rel="preload" href="/css/style.css" as="style">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para conteúdo</a>
+  <header role="banner" class="topbar">
+    <div class="container">
+      <a class="logo" href="/index.html" aria-label="Página inicial">Plataforma ONG</a>
+      <nav aria-label="Principal">
+        <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul id="menu" class="menu">
+          <li><a href="/sobre.html">Sobre</a></li>
+          <li><a href="/projetos.html">Projetos</a></li>
+          <li><a href="/voluntariado.html">Voluntariado</a></li>
+          <li><a href="/doacoes.html">Doações</a></li>
+          <li><a href="/transparencia.html">Transparência</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo" tabindex="-1" class="container">
+
+<article class="card">
+  <h1>Projetos sociais</h1>
+  <p>Veja os projetos ativos, seus objetivos e indicadores.</p>
+  <table class="table" aria-describedby="legendaProj">
+    <thead>
+      <tr><th>Projeto</th><th>Categoria</th><th>Status</th><th>Meta (R$)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Projeto A</td><td>Educação</td><td>Em andamento</td><td>50.000</td></tr>
+      <tr><td>Projeto B</td><td>Saúde</td><td>Planejado</td><td>30.000</td></tr>
+      <tr><td>Projeto C</td><td>Meio ambiente</td><td>Concluído</td><td>20.000</td></tr>
+    </tbody>
+  </table>
+  <p id="legendaProj">Tabela de exemplo. Dados fictícios.</p>
+</article>
+
+  </main>
+  <footer class="rodape" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Plataforma ONG — Acessível, segura e aberta.</p>
+    </div>
+  </footer>
+  <script src="/js/masks.js" defer></script>
+  <script src="/js/menu.js" defer></script>
+  <script src="/js/charts.js" defer></script>
+</body>
+</html>
