@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate HTML
-        uses: Cyb3r-Jak3/html5validator-action@v2
+        uses: Cyb3r-Jak3/html5validator-action@v3
         with:
           root: .
           css: false
